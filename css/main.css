@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  background: transparent;
+  float: left;
+  position: relative;
+}
+
+
+header #logo {
+  background-image: url("../images/Manulits.jpg");
+  margin-left: 41px;
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: #b1abaf 0 0 10px;
+  display: inline-block;
+
+}
+
+header #logo .developer {
+  width: 100%;
+  font-size: 1.2em;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+  padding-top: 160px;
+  padding-left: 2px;
+
+}
+
+header #logo .developer a {
+  color: #000;
+  text-decoration: none;
+}
+
+header .about {
+  color: #000;
+}
+
+header #logo span {
+  font-size: 1.2em;
+  line-height: 45px;
+  margin-left: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header .about span {
+  font-size: 1.8em;
+  line-height: 45px;
+  margin-left: 40px;
+  font-family: 'Hind', sans-serif;
+}
+
+header .about h3 {
+  font-size: 1.2em;
+  line-height: 35px;
+  margin-left: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header .about p {
+  font-size: 1.2em;
+  line-height: 35px;
+  margin-left: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.top_right_container {
+  padding-top: 2px;
+  display: inline-block;
+  position: absolute;
+}
+
+.top_right_container span {
+  font-size: 1.4em;
+  line-height: 45px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #800000;
+}
+
+.top_right_container h6 {
+  font-size: 0.9em;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #800000;
+}
+
+
+.right_container {
+  display: flex;
+  padding-top: 80px;
+  width: 75%;
+  float: right;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.right_container span {
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.right_container ul {
+  list-style-type: none;
+}
+
+.right_container a {
+  text-decoration: none;
+  background-size: 100%;
+  display: inline-block;
+  height: 400px;
+  width: 200px;
+  text-indent: -99999999px;
+}
+
+.right_container .gallery-img {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.right_bottom_txt {
+  padding-top: 300px;
+}
+
+.containers .gallery-img {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.someText .the_pic {
+  background-image: url("../images/screenshots/iPhoneX1.png");
+}
+
+.right_container .main_pic {
+  background-image: url("../images/screenshots/iPhoneX1.png");
+}
+.right_container .second_pic {
+  background-image: url("../images/screenshots/iPhoneX2.png");
+}
+.containers .third_pic {
+  background-image: url("../images/screenshots/iPhoneX3.png");
+}
+.containers .fourth_pic {
+  background-image: url("../images/screenshots/iPhoneX4.png");
+}
+.containers .fifth_pic {
+  background-image: url("../images/screenshots/iPhoneX5.png");
+}
+.containers .sixth_pic {
+  background-image: url("../images/screenshots/iPhoneX6.png");
+}
+.containers .seventh_pic {
+  background-image: url("../images/screenshots/iPhoneX7.png");
+}
+.containers .eighth_pic {
+  background-image: url("../images/screenshots/iPhoneX8.png");
+}
+.containers .ninth_pic {
+  background-image: url("../images/screenshots/iPhoneX9.png");
+}
+.containers .tenth_pic {
+  background-image: url("../images/screenshots/iPhoneX10.png");
+}
+.containers .eleventh_pic {
+  background-image: url("../images/screenshots/iPhoneX11.png");
+}
+.containers .twelveth_pic {
+  background-image: url("../images/screenshots/iPhoneX12.png");
+}
+.containers .thirteenth_pic {
+  background-image: url("../images/screenshots/iPhoneX13.png");
+}
+.containers .fourteenth_pic {
+  background-image: url("../images/screenshots/iPhoneX14.png");
+}
+.containers .fifteenth_pic {
+  background-image: url("../images/screenshots/iPhoneX15.png");
+}
+.containers .sixteenth_pic {
+  background-image: url("../images/screenshots/iPhoneX16.png");
+}
+.containers .seventeenth_pic {
+  background-image: url("../images/screenshots/iPhoneX17.png");
+}
+.containers .eighteenth_pic {
+  background-image: url("../images/screenshots/iPhoneX18.png");
+}
+.containers .nineteenth_pic {
+  background-image: url("../images/screenshots/iPhoneX19.png");
+}
+.containers .twentieth_pic {
+  background-image: url("../images/screenshots/iPhoneX20.png");
+}
+.containers .twentieth_first_pic {
+  background-image: url("../images/screenshots/iPhoneX21.png");
+}
+.containers .twentieth_second_pic {
+  background-image: url("../images/screenshots/iPhoneX22.png");
+}
+.containers .twentieth_third_pic {
+  background-image: url("../images/screenshots/iPhoneX23.png");
+}
+
+
+.containers div {
+
+  float: right;
+  padding-left: 46px;
+  padding-right: 10px;
+  display: flex;
+  padding-top: 40px;
+  width: 80%;
+}
+
+.containers span {
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.containers ul {
+  list-style-type: none;
+}
+
+.containers a {
+
+  text-decoration: none;
+  background-size: 100%;
+  display: inline-block;
+  height: 400px;
+  width: 200px;
+  background-repeat: no-repeat;
+  text-indent: -99999999px;
+  padding-bottom: 10px;
+}
+
+/* Popup window when clicked */
+
+.img-window {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+
+}
+
+.img-window img {
+  max-height: 80vh;
+  max-width: 80vw;
+}
+
+.img-btn-next {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #111111;
+  position: fixed;
+  top: 48vh;
+  z-index: 500;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.img-btn-next:hover {
+  opacity: 0.8;
+}
+
+.img-btn-prev {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #111111;
+  position: fixed;
+  top: 48vh;
+  z-index: 500;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.img-btn-prev:hover {
+opacity: 0.8;
+}
+
+@media (min-width: 815px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.2em;
+  }
+
+  header .about {
+    float: inherit;
+    width: 68%;
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 814px) {
+
+  header #logo {
+    margin-left: 31%;
+    margin-top: 15px;
+    font-size: 1.2em;
+  }
+
+  header .about span {
+    margin-left: 19%;
+    width: 100%;
+  }
+
+  header .about h3 {
+    margin-left: 35%;
+  }
+
+  header .about p {
+    margin-left: 27%;
+  }
+
+  header .about {
+    padding-top: 25px;
+  }
+
+  .top div {
+    display: none;
+  }
+
+  .top_right_container {
+    padding-top: 25px;
+  }
+
+  .top_right_container span {
+    margin-left: 11%;
+  }
+
+  .top_right_container h6 {
+    margin-left: -26px;
+  }
+
+  .right_container {
+    width: 100%;
+    display: grid;
+    float: none;
+  }
+
+  .right_container span {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .right_container li {
+    text-align: center;
+    margin-left: 26%;
+  }
+
+  .right_container .gallery-img {
+    width: 200px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .containers .gallery-img {
+    width: 200px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .containers div {
+    display: grid;
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .containers li {
+    margin-left: 26%;
+  }
+
+  .containers span {
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+
+}
+
+.top {
+  display: inline-block;
+  width: 25%;
+  padding-left: 0px;
+  background-color: #fafafa;
+  text-align: left;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.top {
+  padding-top: 60px;
+  line-height: 55px;
+}
+
+.top div span {
+  display: grid;
+  padding-left: 46px;
+  line-height: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #707070;
+}
+
+.top div a {
+  display: inline-block;
+  width: 70%;
+  padding-left: 60px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #fafafa;
+  background-color: #373737;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.top div a:hover {
+  color: #fafafa;
+  background-color: #373737;
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+}
